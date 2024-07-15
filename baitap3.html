@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 3</title>
+</head>
+<body>
+    <script>
+        //Nhập vào tuổi trong biến age, in ra 'Đủ tuổi' nếu age>18:
+        let age = +prompt('Nhập tuổi của bạn');
+        if (age > 18) {
+            alert('Bạn đủ tuổi')
+        }
+    </script>
+
+    <script>
+        //Nhập vào a, in ra 'Hello' nếu a chẵn, 'Hi' nếu a lẻ:
+        let a = +prompt('Nhập vào')
+        if (a % 2 === 0) {
+        alert('Hello')
+        } else alert('Hi')
+    </script>
+
+    <script>
+        //Nhập vào a, b. Nếu a>b in ra tổng, nếu a<b in ra tích, nếu a =b in ra 'Hihi':
+        let a = +prompt('Nhập vào a');
+        let b = +prompt('Nhập vào b');
+        if (a > b) {
+            alert('Tổng: ' + (a + b));
+        } 
+        else if (a < b) alert('Tích: ' + (a*b));
+        else if (a = b) alert('Hihi');
+    </script>
+
+    <script>
+        //Nhập a,b,c. In ra số lớn nhất:
+        let a = +prompt('Nhập a');
+        let b = +prompt('Nhập b');
+        let c = +prompt('Nhập c');
+        let max = Math.max(a, b, c);
+        alert('Số lớn nhất: ' + max)
+    </script>
+</body>
+</html>
